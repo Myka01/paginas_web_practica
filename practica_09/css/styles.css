@@ -1,0 +1,1568 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 1vw;
+    font-weight: normal; 
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    height: auto;
+    background-image: url(../img/los-roques-background.jpg);
+    background-position: 0% 0%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: rgb(206, 231, 246);
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    display: flex;
+    justify-content: flex-start;
+}
+
+header{
+    width: 80%;
+    height: 250px;
+   /*  background-color: lightsalmon; */
+    display: flex;
+    flex-direction: column;
+}
+
+#header01{
+    /* border: 1px solid purple; */
+    /* width: 100%;
+    height: 100px; */
+    flex: 2; /* el flex 3 y el flex 1.5, hacen que las cajas hijas se distribuyan en proporción a la caja madre. Con esto, nos ahorramos el indicar width y height */
+    /* background-color: darkseagreen; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header01>div {
+   /*  background-color: chartreuse; */
+    width: 25%;
+    height: 40%;
+    display: flex;
+}
+
+#header01 article {
+    /* background-color: rgb(155, 205, 155); */
+    border: 3px solid whitesmoke;
+    border-radius: 25px;
+}
+
+#header01 article:nth-child(1) {
+    flex:1;
+    background-image: url(../img/fly-icon.png);
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+}
+
+#header01 article:nth-child(2) {
+    flex:3;
+    font-size: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(246, 250, 250);
+    font-family: 'Lobster', cursive;
+}
+
+#header01>div>div {
+    /* background-color: aquamarine; */
+    border: 2px solid black;
+    border-radius: 40px;
+    flex: 1;
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 1%;
+}
+
+#header01>div>div:hover {
+    border: 2px solid whitesmoke;
+    box-shadow: 4px white;
+} 
+
+#header01>div>div:nth-child(1) {
+    background-image: url(../img/face_black.webp);
+}
+
+#header01>div>div:nth-child(2) {
+    background-image: url(../img/logo-instagram-black.png);
+}
+
+#header01>div>div:nth-child(3) {
+    background-image: url(../img/twiter-log.avif);
+}
+
+#header01>div>div:nth-child(4) {
+    background-image: url(../img/linkedin-black.png);
+}
+
+#header02 {
+    /* border: 1px solid orangered; */
+    display: flex;
+    flex: 1;
+
+    /* width: 100%;
+    height: 100px; */
+    /* background-color: lightpink; */
+}
+
+#header02>nav {
+   /*  border: 1px solid lightcoral; */
+    background-color: rgb(102,209,215);
+    flex: 1;
+    display: flex;
+    border-radius: 10px;
+}
+
+#header02>nav>div {
+    flex:1;
+    /* border: 1px solid whitesmoke; */
+    font-family: 'Caveat', cursive;
+    border-radius: 10px;
+    font-size: 2.2vw;
+    font-weight: bold;
+    display: flex; /* es importante poner este comando para que los hijos acepten el estilo flex */
+    justify-content: center;
+    align-items: center;
+}
+
+#header02>nav>div:hover {
+    color: whitesmoke;
+    background-color: rgb(116, 189, 193);
+} 
+
+#header02>nav>div:nth-child(1) {
+    background-image: url(../img/house_logo.webp);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 60% 50%;
+    flex: 0.5;    
+}
+
+#header02>nav>div:nth-child(7) {
+    flex: 2;
+}
+
+#header02>nav>div:nth-child(7)>Input{
+    font-size: 1.5vw;
+}
+
+main {
+    width: 80%;
+    height: auto;
+    /* background-color: rgb(19, 173, 173); */
+    border-radius: 10px;
+    /* border: 2px solid crimson; */
+}
+
+#main01 {
+    width: 100%;
+    height: 500px;
+    background-image: url(../img/playa02.png);
+    background-position: unset;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: rgb(136, 170, 200); */
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#main01>div {
+    /* border: 1px solid coral; */
+    flex: 0.2;
+    /* justify-content: center; */
+    text-align:left;
+    display: flex;
+    margin-left: 2%;
+}
+
+#main01>div:nth-child(1) {
+    color: rgb(247, 244, 240);
+    font-family: 'Lobster', cursive;
+    text-shadow: 3px 3px 3px rgb(71, 73, 76);
+    font-size: 5vw;
+    align-items: center;
+    /* padding-top: 1.5%; */
+}
+
+#main01>div:nth-child(2) {
+    /* justify-self: center; */
+    color: aliceblue;
+    font-size: 2vw;
+    text-shadow: 2px 2px 3px rgb(11, 59, 130);
+    /* padding-top: 5%;
+    box-sizing: border-box; */
+    /* align-items: center; */
+    flex: 0.1;
+}
+
+#main01>div:nth-child(3) {
+    width: 40%;
+    height: 50px;
+    align-items:initial;
+}
+
+#main01 button:nth-child(1) {
+    background-color: lightcoral;
+    margin-right: 5px;
+}
+
+#main01 button {
+    width: 15%;
+    height: 30%;
+    background-color: rgb(228, 228, 102);      
+}
+
+#main01 button:hover {
+    color: antiquewhite;
+    font-weight: bold;
+}
+
+#main02 {
+    margin-top: 1%;
+    background-image: url(../img/sea-texture.jpg);
+    background-position: 60% 90%;
+    background-repeat: repeat;
+    background-size: cover;
+    background-color: lightcoral;
+    height: 80px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#main02>div {
+   /* width: 100%;  */  
+    font-size: 3vw;
+   /*  height: 80px; */
+    color: rgb(246, 250, 250);
+    text-shadow: 2px 2px 2px darkslategrey;
+    font-family: 'Lobster', cursive;
+    margin-left: 2%;
+}
+
+#main02>div:hover {
+    text-shadow: 2px 2px 5px lightcoral;
+}
+
+#main03 {
+    background-color: rgb(71, 81, 112);
+    height: 200px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#main03>div{
+    height: 90%;
+    border: 1px solid black;
+    flex: 1; /*trabajar flex:1  es excluyente con las propiedades de justify-content que se refieren a space-between, evenly, etc. */
+    margin: 1%;
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+
+#main03>div:hover {
+    box-shadow: 5px 5px 5px rgb(150, 180, 219);
+}
+
+#main03>div:nth-child(1) {
+    background-image: url(../img/main02a.jpg);}
+
+#main03>div:nth-child(2) {
+    background-image: url(../img/main02f.jpg);}
+
+#main03>div:nth-child(3) {
+    background-image: url(../img/main02c.jpg);}
+
+#main03>div:nth-child(4) {
+    background-image: url(../img/main02d.jpg);}
+
+#main03>div:nth-child(5) {
+    background-image: url(../img/main02e.jfif);}
+
+
+#main04 {
+    width: 100%;
+    height: 380px;
+   /*  background-color: rgb(28, 99, 93); */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+}
+
+#main04>div {
+    width: 20%;
+   /*  height: 100%; */
+    /* border: 02px solid crimson; */
+    display: flex; /* esto me había faltado!! */    
+    flex-direction: column;
+   /*  align-content: stretch; 
+    justify-content: flex-start;  */
+}
+
+#main04>div>div:nth-child(1),
+#main04>div>div:nth-child(4)  {
+        /* border: 1px solid whitesmoke; */
+        flex: 1;
+        font-family: 'Montserrat', sans-serif;
+        color: rgb(254, 253, 251);
+        flex-direction: column;
+        justify-content: center;
+        display: flex;
+}
+
+#main04>div>div:nth-child(2),
+#main04>div>div:nth-child(3)  {
+    /* border: 1px solid whitesmoke; */
+    flex: 2;
+    color: aliceblue;
+    padding: 5%;
+    text-align: left;
+}
+
+#main04>div>div {
+    background-position: 100% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+
+#main04>div>div:nth-child(1)>p {
+    font-size: 1.5vw;
+    padding-left: 6%;
+    justify-content: center;
+}
+
+#main04>div>div:nth-child(1)>p:nth-child(2) {
+    font-weight: bolder;
+    font-size: 2vw;
+}
+
+#main04>div:nth-child(1)>div:nth-child(2) {
+    background-image: url(../img/ibiza-disco-03.jpg);}
+#main04>div:nth-child(2)>div:nth-child(2) {
+    background-image: url(../img/wine-beach.jpeg);}
+#main04>div:nth-child(3)>div:nth-child(2) {
+    background-image: url(../img/moochilera.webp);}
+#main04>div:nth-child(4)>div:nth-child(2) {
+    background-image: url(../img/booking-online.jpg);}
+
+#main04>div:nth-child(1) {
+    background-color: rgb(147, 199, 212);}
+#main04>div:nth-child(2) {
+    background-color: rgb(123, 219, 192);}
+#main04>div:nth-child(3) {
+    background-color: rgb(192, 197, 102);}
+#main04>div:nth-child(4) {
+    background-color: rgb(219, 90, 139);}
+
+#main04 button {
+    width: 30%;
+    height: 40%;
+    margin-left: 4%;
+    background-color: rgb(230, 205, 159);
+    font-size: 1.2vw;
+    border: none;
+}
+
+#main04>div:nth-child(1)>div:nth-child(4)>button {
+    background-color: rgb(101, 135, 144)
+}
+#main04>div:nth-child(2)>div:nth-child(4)>button {
+    background-color: rgb(76, 155, 133)
+}
+#main04>div:nth-child(3)>div:nth-child(4)>button {
+    background-color: rgb(154, 159, 61)
+}
+#main04>div:nth-child(4)>div:nth-child(4)>button {
+    background-color: rgb(178, 54, 102)
+}
+
+#main04 button:hover {
+    color: aliceblue;
+    box-shadow: 2px 2px 4px lightcoral;
+} 
+
+#main05 {
+    border: 2px solid salmon;
+    width: 100%;
+    height: 600px;
+    margin-top: 2%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#main05>div {
+    flex: 1;
+   /*  border: 2px solid rgb(20, 20, 220); */
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+
+
+#main05>div:nth-child(1)>article {
+    /* border: 2px solid olivedrab; */
+    flex: 1;
+    display: flex;
+    margin-left: 2%;
+}
+
+#main05>div:nth-child(1)>article:nth-child(1){
+    flex: 2;
+    width: 100%;
+    font-size: 3vw;
+    display: flex;
+    align-items: flex-end;
+    color: turquoise;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+}
+
+#main05>div:nth-child(1)>article:nth-child(2){
+   /*  flex: 1.3; */
+    width: -50%;
+    font-size: 1.5vw;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+
+#main05>div:nth-child(1)>article:nth-child(3) {
+   display: flex;
+}
+
+#main05>div:nth-child(1)>article:nth-child(3)>div {
+    flex: 1;
+}
+
+#main05>div:nth-child(1)>article:nth-child(3)>div:nth-child(1) {
+    background-image: url(../img/beach-girl.jpg);
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#main05>div:nth-child(1)>article:nth-child(3)>div:nth-child(2) {
+   padding: 0% 2% 2% 2%;
+}
+
+#main05>div:nth-child(1)>article:nth-child(3)>div:nth-child(2)>p:nth-child(1) {
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 1.8vw;  
+    font-weight: bold;
+    color: crimson;
+    margin-bottom: 3%;
+}
+
+#main05 p:nth-child(2) {
+    color: gray;
+    font-size: 1.2vw;
+}
+
+#main05>div:nth-child(1)>article:nth-child(4) {
+    flex: 1;
+    box-sizing: border-box;
+    font-size: 1.1vw;
+    color: gray;
+    margin-top: 4%;
+    margin-left: 3%;
+    margin-right: 2%;
+    margin-bottom: 3%;
+}
+
+#main05>div:nth-child(1)>article:nth-child(5){
+     flex: 1; }
+
+#main05>div:nth-child(1)>article:nth-child(5)>button {
+    height: 40px;
+    width: 60px;
+    background-color: rgb(59, 58, 63);
+    color: azure;
+}
+
+#main05>div:nth-child(2) {
+    /* background-color: lightsalmon; */
+    padding: 2%;
+    box-sizing: border-box;
+}
+
+#main05>div:nth-child(2)>article:nth-child(1) {
+  /*   background-color: aquamarine; */
+    display: flex;
+    flex: 1;
+}
+
+#main05>div>:nth-child(2)>article>div:hover {
+    background-color: rgb(67, 105, 103);
+    flex: 1;
+    /* opacity:0.8; */
+}
+
+#main05>div:nth-child(2)>article>div>:nth-child(1) {
+    /* border: 2px solid black; */
+    font-size: 2vw;
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: bold;
+}
+
+
+#main05>div:nth-child(2)>article>div {
+    justify-content: space-evenly;
+    /* border: 2px solid red; */
+    flex: 1;
+    width: 25%;
+    margin: 0.3%;
+    padding: 1%;
+}
+
+#main05>div:nth-child(2)>article>div:hover{
+    background-color: rgb(172, 208, 210);
+       
+} 
+
+#main05>div:nth-child(2)>article>div>:nth-child(2) {
+    font-size: 2.2vw;
+    color: turquoise;
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: bolder;
+    height: 70px;
+    }
+#main05>div:nth-child(2)>article>div>:nth-child(3) {
+    font-size: 1vw;
+    padding: 1%;
+    height: 50%;
+    /* background-color: aquamarine; */
+}
+#main05>div:nth-child(2) button {
+    height: 35px;
+    width: 60px;
+    background-color: rgb(59, 58, 63);
+    color: azure;
+}
+
+#main05>div:nth-child(2)>article:nth-child(2) {
+    /* background-color: rgb(71, 77, 180); */
+    display: flex;
+    flex: 1;
+    /* margin-left: 2%; */
+}
+
+#main06 {
+    border: 2px solid rgb(200, 83, 83);
+    display: flex;
+    height: 600px; 
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* background-color: rgb(33, 33, 56); */
+}
+
+#main06>article {
+    border: 2px solid black;
+    width: 43%; /* si le ponemos 50%, hace algo raro. es cuestión de ir jugando con los porcentajes y los flexs*/
+    margin: 1%;
+    display: flex;
+    flex-direction: column;
+    background-color: lightcyan;
+    padding: 10px 20px;
+}
+
+/* #main06>article>div {
+    background-color: rgb(206, 231, 246);
+} */
+
+#main06>article:hover {
+    background-color: rgb(80, 117, 121);
+}
+
+#main06>article>div:nth-child(1) { 
+    flex: 1;
+    display: flse;
+    font-size: 2vw;
+    align-items: flex-end;
+}
+
+#main06>article>div:nth-child(2) { 
+    flex: 1;
+    font-size: 2vw;
+    display: flex;
+    color: rgb(74, 227, 212);
+    font-weight: bolder;
+}
+
+#main06>article>div:nth-child(3) { 
+    flex: 2;
+    padding: 2%;
+}
+
+#main06>article>div:nth-child(4) button { 
+    flex: 2;
+    height: 40px;
+    width: 60px;
+    background-color: rgb(59, 58, 63);
+    color: azure;
+    margin: 10px 20px;
+}
+
+footer {
+    height: 300px;
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    /* align-items: ; */
+}
+
+
+#foot01 {
+    flex: 1.4;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+    margin: 2%;   
+}
+
+#foot01>article:nth-child(1) {
+    flex: 1;
+    background-image: url(../img/fly-icon.png);
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    height: 20%;
+    align-items: center;
+    /* justify-content: flex-start; */
+    }
+
+#foot01>article:nth-child(2) {
+    flex: 2;
+    border: 2px solid lightpink;
+    font-weight: bold;
+    font-size: 2vw;    
+   /*  justify-content: flex-start;
+    align-items: center; */
+    color: rgb(246, 250, 250);
+    font-family: 'Lobster', cursive;
+    display: flex;
+    align-items: center;
+}
+
+#foot01>article:nth-child(3) {
+    flex: 3;
+    display: flex;
+    align-items: flex-end;
+    /* justify-content: flex-start; */
+    border: 2px solid red;
+}
+
+#foot02 {
+    /* border: 2px solid lightskyblue; */
+    flex: 3;
+    display: flex;
+}
+
+#foot02>div {
+  /*   border: 2px solid lightgreen; */
+    flex: 1;
+    margin: 2%;
+    display: flex;
+    flex-direction: column;
+}
+
+#foot02>div>h2 {
+    font-size: 2vw;
+    flex: 1.5;
+    color: antiquewhite;
+    display: flex;
+    align-items: center; /* alineación vertical */
+    justify-content: flex-start; /* alineacióno horizontal */
+}
+
+#foot02>div>h2:hover {
+    text-shadow: 4px 4px 6px whitesmoke;
+}
+
+#foot02>div>div {
+    /* border: 1px solid salmon; */
+    flex: 1;
+    display: flex;
+}
+
+
+#foot02>div>div>p:nth-child(1) {
+    flex: 1;
+    background-image: url(../img/flecha02.webp);
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+    background-size: contain;   
+}
+
+#foot02>div>div>p:nth-child(1):hover {
+    background-image: url(../img/Plane-Icon-1.webp);
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+    background-size: contain; 
+}
+
+#foot02>div>div>p:nth-child(2) {
+    flex: 4;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    font-size: 1.5vw;
+}
+
+/* ///////////////////////////////////
+    /////////////////////////////////////////////
+    Estilo para móbil (el responsive)
+                     //////////////////////////
+                     ////////////////////////////////////////////77
+                        ///////////////////////////////////////////////////////////////////// /////////////////////////////////////////////////////////
+                        //////////////////////////////
+                    
+                                     
+             
+                    
+                        */  
+
+                    
+@media screen and (max-width: 420px) {
+
+/* body {
+    background-color: lightgreen; /* --Hacer una prueba con el background-color es útil para saber si funciona elmedia query 
+} */
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    height: auto;
+    background-image: url(../img/los-roques-background.jpg);
+    background-position: 0% 0%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: rgb(206, 231, 246);
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    display: flex;
+    justify-content: flex-start;
+}
+
+header{
+    width: 100%;
+    height: 550px;
+   /*  background-color: lightsalmon; */
+    display: flex;
+    flex-direction: column;
+}
+
+#header01{
+    /* border: 1px solid purple; */
+    /* width: 100%;
+    height: 100px; */
+    flex: 2; /* el flex 3 y el flex 1.5, hacen que las cajas hijas se distribuyan en proporción a la caja madre. Con esto, nos ahorramos el indicar width y height */
+    /* background-color: darkseagreen; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#header01>div {
+   /*  background-color: chartreuse; */
+    width: 100%;
+    height: 30%;
+    display: flex;
+}
+
+#header01 article {
+    /* background-color: rgb(155, 205, 155); */
+    border: 3px solid whitesmoke;
+    border-radius: 25px;
+}
+
+#header01 article:nth-child(1) {
+    flex:1.5;
+    background-image: url(../img/fly-icon.png);
+    background-position: 50% 150%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+#header01 article:nth-child(2) {
+    flex:4;
+    font-size: 14vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(246, 250, 250);
+    font-family: 'Lobster', cursive;
+}
+
+#header01>div>div {
+    /* background-color: aquamarine; */
+    border: 2px solid black;
+    border-radius: 40px;
+    flex: 1;
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 1%;
+}
+
+#header01>div>div:hover {
+    border: 2px solid whitesmoke;
+    box-shadow: 4px white;
+} 
+
+#header01>div>div:nth-child(1) {
+    background-image: url(../img/face_black.webp);
+}
+
+#header01>div>div:nth-child(2) {
+    background-image: url(../img/logo-instagram-black.png);
+}
+
+#header01>div>div:nth-child(3) {
+    background-image: url(../img/twiter-log.avif);
+}
+
+#header01>div>div:nth-child(4) {
+    background-image: url(../img/linkedin-black.png);
+}
+
+#header02 {
+    /* border: 1px solid orangered; */
+    display: flex;
+    flex: 5;
+
+    /* width: 100%;
+    height: 100px; */
+    /* background-color: lightpink; */
+}
+
+#header02>nav {
+   /*  border: 1px solid lightcoral; */
+    background-color: rgb(102,209,215);
+    flex: 1;
+    display: flex;
+    border-radius: 10px;
+    flex-direction: column;
+/*     flex-wrap: wrap; */
+    height: auto;
+
+}
+
+#header02>nav>div {
+    flex:1;
+    border: 2px solid whitesmoke;
+    font-family: 'Caveat', cursive;
+    border-radius: 10px;
+    font-size: 9vw;
+    font-weight: bold;
+    display: flex; /* es importante poner este comando para que los hijos acepten el estilo flex */
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#header02>nav>div:hover {
+    color: whitesmoke;
+    background-color: rgb(116, 189, 193);
+} 
+
+#header02>nav>div:nth-child(1) {
+    display: none;
+    background-image: url(../img/house_logo.webp);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 20% 90%;
+    flex: 1;    
+}
+
+#header02>nav>div:nth-child(7) {
+    flex: 2;
+}
+
+#header02>nav>div:nth-child(7)>Input{
+    font-size: 5vw;
+    width: 80%;
+    height: 40%;
+    border-radius: 10px;
+    border: 2px solid crimson;
+    outline-color: lightcoral; 
+    /* revisar cual border cambia luego de haber escrito */
+    background-color: rgb(185, 232, 240);
+    padding-left: 3%;
+}
+
+main {
+    width: 100%;
+    height: 4000px;
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgb(19, 173, 173); */
+    border-radius: 10px;
+    /* border: 2px solid crimson; */
+    /* aquí debí poner que el display fuera flex, pero no lo hice */
+}
+
+#main01 {
+    width: 100%;
+    height: 500px;
+    background-image: url(../img/playa02.png);
+    background-position: unset;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: rgb(136, 170, 200); */
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+
+#main01>div {
+    /* border: 1px solid coral; */
+    flex: 0.2;
+    /* justify-content: center; */
+    text-align:left;
+    display: flex;
+    margin-left: 2%;
+    width: 100%;
+}
+
+#main01>div:nth-child(1) {
+    color: rgb(247, 244, 240);
+    font-family: 'Lobster', cursive;
+    text-shadow: 3px 3px 3px rgb(71, 73, 76);
+    font-size: 17vw;
+    align-items: center;
+    /* padding-top: 1.5%; */
+}
+
+#main01>div:nth-child(2) {
+    /* justify-self: center; */
+    color: aliceblue;
+    font-size: 8vw;
+    text-shadow: 2px 2px 3px rgb(11, 59, 130);
+    /* padding-top: 5%;
+    box-sizing: border-box; */
+    /* align-items: center; */
+    flex: 0.1;
+}
+
+#main01>div:nth-child(3) {
+    width: 100%;
+    height: 50px;
+    align-items:initial;
+    justify-content: center;
+}
+
+#main01 button:nth-child(1) {
+    background-color: lightcoral;
+    margin-right: 5px;
+    height: 60%;
+    width: 30%;
+}
+
+#main01 button {
+    width: 15%;
+    height: 30%;
+    background-color: rgb(228, 228, 102); 
+    height: 60%;
+    width: 30%;   
+    font-size: 5vw;  
+}
+
+#main01 button:hover {
+    color: antiquewhite;
+    font-weight: bold;
+}
+
+#main02 {
+    margin-top: 1%;
+    background-image: url(../img/sea-texture.jpg);
+    background-position: 60% 90%;
+    background-repeat: repeat;
+    background-size: cover;
+    background-color: lightcoral;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main02>div {
+   /* width: 100%;  */  
+    font-size: 9vw;
+    letter-spacing: 1vw;
+   /*  height: 80px; */
+    color: rgb(246, 250, 250);
+    text-shadow: 2px 2px 2px darkslategrey;
+    font-family: 'Lobster', cursive;
+    margin-left: 2%;
+}
+
+#main02>div:hover {
+    text-shadow: 2px 2px 5px lightcoral;
+}
+
+#main03 {
+    background-color: rgb(71, 81, 112);
+    height: 1200px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+   /*  flex-wrap: wrap; */
+    flex-direction: column;
+    
+}
+
+/* 1. poner el texto en columnas en main03
+2. ampliamos el height: de main03 a 800px (o más) y quelas hijas de distribuyan el espacio
+3. en main03>div, se da un width de 90%
+4. en main03 div, se agrega un margin del 2% */ 
+
+#main03>div{
+    height: 90%;
+    border: 1px solid black;
+    flex: 2; /*trabajar flex:1  es excluyente con las propiedades de justify-content que se refieren a space-between, evenly, etc. */
+    margin: 2%;
+    background-position: 60% 80%;
+    background-repeat: no-repeat;
+    background-size: cover;    
+    width: 90%;
+}
+
+#main03>div:hover {
+    box-shadow: 5px 5px 5px rgb(150, 180, 219);
+}
+
+#main03>div:nth-child(1) {
+    background-image: url(../img/main02a.jpg);}
+
+#main03>div:nth-child(2) {
+    background-image: url(../img/main02f.jpg);}
+
+#main03>div:nth-child(3) {
+    background-image: url(../img/main02c.jpg);}
+
+#main03>div:nth-child(4) {
+    background-image: url(../img/main02d.jpg);}
+
+#main03>div:nth-child(5) {
+    background-image: url(../img/main02e.jfif);}
+
+
+#main04 {
+    width: 100%;
+    height:2500px;
+   /*  background-color: rgb(28, 99, 93); */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 2%;
+}
+
+#main04>div {
+    width: 80%;
+    margin-left: 10%;
+    height: 100%;
+    margin-top: 2%;
+   /*  height: 100%; */
+    /* border: 02px solid crimson; */
+    display: flex; /* esto me había faltado!! */    
+    flex-direction: column;
+   /*  align-content: stretch; 
+    justify-content: flex-start;  */
+}
+
+
+#main04>div>div:nth-child(1),
+#main04>div>div:nth-child(4)  {
+        /* border: 1px solid whitesmoke; */
+        flex: 1;
+        font-family: 'Montserrat', sans-serif;
+        color: rgb(254, 253, 251);
+        flex-direction: column;
+        justify-content: center;
+        display: flex;
+}
+
+#main04>div>div:nth-child(2),
+#main04>div>div:nth-child(3)  {
+    /* border: 1px solid whitesmoke; */
+    flex: 2;
+    color: aliceblue;
+    padding: 5%;
+    text-align: left;
+}
+
+#main04>div>div {
+    background-position: 100% 50%;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    font-size: 4vw;   
+}
+
+#main04>div>div:nth-child(1)>p {
+    font-size: 6vw;
+    padding-left: 6%;
+    justify-content: center;
+}
+
+#main04>div>div:nth-child(1)>p:nth-child(2) {
+    font-weight: bolder;
+    font-size: 5vw;
+}
+
+#main04>div:nth-child(1)>div:nth-child(2) {
+    background-image: url(../img/ibiza-disco-03.jpg);}
+#main04>div:nth-child(2)>div:nth-child(2) {
+    background-image: url(../img/wine-beach.jpeg);}
+#main04>div:nth-child(3)>div:nth-child(2) {
+    background-image: url(../img/moochilera.webp);}
+#main04>div:nth-child(4)>div:nth-child(2) {
+    background-image: url(../img/booking-online.jpg);}
+
+#main04>div:nth-child(1) {
+    background-color: rgb(147, 199, 212);}
+#main04>div:nth-child(2) {
+    background-color: rgb(123, 219, 192);}
+#main04>div:nth-child(3) {
+    background-color: rgb(192, 197, 102);}
+#main04>div:nth-child(4) {
+    background-color: rgb(219, 90, 139);}
+
+#main04 button {
+    width: 30%;
+    height: 60%;
+    margin-left: 4%;
+    background-color: rgb(230, 205, 159);
+    font-size: 4vw;
+    border: none;
+}
+
+#main04>div>div:nth-child(4) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main04>div:nth-child(1)>div:nth-child(4)>button {
+    background-color: rgb(101, 135, 144)
+}
+#main04>div:nth-child(2)>div:nth-child(4)>button {
+    background-color: rgb(76, 155, 133)
+}
+#main04>div:nth-child(3)>div:nth-child(4)>button {
+    background-color: rgb(154, 159, 61)
+}
+#main04>div:nth-child(4)>div:nth-child(4)>button {
+    background-color: rgb(178, 54, 102)
+}
+
+#main04 button:hover {
+    color: aliceblue;
+    box-shadow: 2px 2px 4px lightcoral;
+} 
+
+
+#main05 {
+    border: 2px solid salmon;
+    width: 100%;
+    height: 1200px;
+    margin-top: 2%;
+   /*  display: flex; */
+   display: none;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#main05>div {
+    flex: 1;
+   /*  border: 2px solid rgb(20, 20, 220); */
+    display: flex;
+    flex-direction: row;
+    height: auto;
+}
+
+#main05>div:nth-child(1){
+    display: none;
+}
+
+#main05>div:nth-child(1)>article {
+    /* border: 2px solid olivedrab; */
+    flex: 1;
+    display: flex;
+    margin-left: 2%;
+}
+
+#main05>div:nth-child(1)>article:nth-child(1){
+    flex: 2;
+    width: 100%;
+    font-size: 3vw;
+    display: flex;
+    align-items: flex-end;
+    color: turquoise;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+}
+
+#main05>div:nth-child(1)>article:nth-child(2){
+   /*  flex: 1.3; */
+    width: -50%;
+    font-size: 5vw;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+
+#main05>div:nth-child(1)>article:nth-child(3) {
+   display: flex;
+}
+
+#main05>div:nth-child(1)>article:nth-child(3)>div {
+    flex: 1;
+}
+
+#main05>div:nth-child(1)>article:nth-child(3)>div:nth-child(1) {
+    background-image: url(../img/beach-girl.jpg);
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#main05>div:nth-child(1)>article:nth-child(3)>div:nth-child(2) {
+   padding: 0% 2% 2% 2%;
+}
+
+#main05>div:nth-child(1)>article:nth-child(3)>div:nth-child(2)>p:nth-child(1) {
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 1.8vw;  
+    font-weight: bold;
+    color: crimson;
+    margin-bottom: 3%;
+}
+
+#main05 p:nth-child(2) {
+    color: gray;
+    font-size: 1.2vw;
+}
+
+#main05>div:nth-child(1)>article:nth-child(4) {
+    flex: 1;
+    box-sizing: border-box;
+    font-size: 1.1vw;
+    color: gray;
+    margin-top: 4%;
+    margin-left: 3%;
+    margin-right: 2%;
+    margin-bottom: 3%;
+}
+
+#main05>div:nth-child(1)>article:nth-child(5){
+     flex: 1; }
+
+#main05>div:nth-child(1)>article:nth-child(5)>button {
+    height: 40px;
+    width: 60px;
+    background-color: rgb(59, 58, 63);
+    color: azure;
+}
+
+#main05>div:nth-child(2) {
+    /* background-color: lightsalmon; */
+    padding: 2%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#main05>div{
+    width:100% ;
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#main05>div:nth-child(2)>article:nth-child(1) {
+  /*   background-color: aquamarine; */
+    display: flex;
+    flex: 1;
+}
+
+#main05>div>:nth-child(2)>article>div:hover {
+    background-color: rgb(67, 105, 103);
+    flex: 1;
+    /* opacity:0.8; */
+}
+
+#main05>div:nth-child(2)>article>div>:nth-child(1) {
+    /* border: 2px solid black; */
+    font-size: 6vw;
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: bold;
+}
+
+
+#main05>div:nth-child(2)>article>div {
+    justify-content: space-evenly;
+    /* border: 2px solid red; */
+    flex: 1;
+    width: 25%;
+    margin: 0.3%;
+    padding: 1%;
+}
+
+#main05>div:nth-child(2)>article>div:hover{
+    background-color: rgb(172, 208, 210);
+       
+} 
+
+#main05>div:nth-child(2)>article>div>:nth-child(2) {
+    font-size: 6vw;
+    color: turquoise;
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: bolder;
+    height: 70px;
+    }
+#main05>div:nth-child(2)>article>div>:nth-child(3) {
+    font-size: 5vw;
+    padding: 1%;
+    height: 50%;
+    /* background-color: aquamarine; */
+}
+#main05>div:nth-child(2) button {
+    height: 35px;
+    width: 60px;
+    background-color: rgb(59, 58, 63);
+    color: azure;
+}
+
+#main05>div:nth-child(2)>article:nth-child(2) {
+    /* background-color: rgb(71, 77, 180); */
+    display: flex;
+    flex: 1;
+    /* margin-left: 2%; */
+}
+
+#main06 {
+    border: none; /* recuerda, en el css del móbil, debes poner en none los valores, pues si sólo se comenta la línea, el sistema tomará el estilo de arriba, el de la página web
+    display */ 
+    flex:1;
+    height: 1700px; 
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 3%;
+    /* background-color: rgb(33, 33, 56); */
+}
+
+#main06>article {
+    border: none;
+    width: 90%; /* si le ponemos 50%, hace algo raro. es cuestión de ir jugando con los porcentajes y los flexs*/
+    margin: 1%;
+    display: flex;
+    flex-direction: column;
+    background-color: lightcyan;
+    padding: 10px 20px;
+}
+
+/* #main06>article>div {
+    background-color: rgb(206, 231, 246);
+} */
+
+#main06>article:hover {
+    background-color: rgb(80, 117, 121);
+}
+
+#main06>article>div:nth-child(1) { 
+    flex: 1;
+    display: flex;
+    font-size: 6vw;
+    align-items: flex-end;
+}
+
+#main06>article>div:nth-child(2) { 
+    flex: 1;
+    font-size: 5vw;
+    display: flex;
+    color: rgb(74, 227, 212);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+}
+
+#main06>article>div:nth-child(3) { 
+    flex: 2;
+    padding: 2%;
+    font-size: 4vw;
+}
+
+#main06>article>div:nth-child(4) {
+    justify-content: center;
+    align-self: center;
+    display: flex;
+
+}
+
+#main06>article>div:nth-child(4) button { 
+    flex: 2;
+    height: 40px;
+    width: 60px;
+    background-color: rgb(59, 58, 63);
+    color: azure;
+    margin: 10px 20px;
+    font-size: 4vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+
+footer {
+    display: flex;
+    height: 600px;
+    background-color: black;
+    color: aliceblue;
+    /* display: flex; */
+    flex-direction: column;
+    /* align-items: ; */
+}
+
+
+#foot01 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    margin: none;   
+}
+
+#foot01>article:nth-child(1) {
+    /* flex: 1; */
+    background-image: url(../img/fly-icon.png);
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    height: 30%;
+    width: 30%;
+    border: none;
+    /* align-items: center; */
+    /* justify-content: flex-start; */
+    }
+
+#foot01>article:nth-child(2) {
+    flex: 1;
+    border: none;
+    font-weight: bold;
+    font-size: 7vw;    
+   /*  justify-content: flex-start;
+    align-items: center; */
+    color: rgb(246, 250, 250);
+    font-family: 'Lobster', cursive;
+    display: flex;
+    align-items: center;
+}
+
+#foot01>article:nth-child(3) {
+    flex: 1;
+    display: flex;
+    align-items: flex-start;
+    font-size: 5vw;
+    /* justify-content: flex-start; */
+    border: none;
+}
+
+#foot02 {
+    /* border: 2px solid lightskyblue; */
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+    align-items: row;
+   
+}
+
+#foot02>div {
+  /*   border: 2px solid lightgreen; */
+    flex: 1;
+    margin: 2%;
+    display: flex;
+    flex-direction: column;
+}
+
+#foot02>div>h2 {
+    font-size: 6vw;
+    flex: 1.5;
+    color: antiquewhite;
+    display: flex;
+    align-items: center; /* alineación vertical */
+    justify-content: center /* alineacióno horizontal */
+}
+
+#foot02>div>h2:hover {
+    text-shadow: 4px 4px 6px whitesmoke;
+}
+
+#foot02>div>div {
+    /* border: 1px solid salmon; */
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+
+#foot02>div>div>p:nth-child(1) {
+    flex: 1;
+    display: flex;
+    background-image: url(../img/flecha02.webp);
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+    background-size: contain;   
+}
+
+#foot02>div>div>p:nth-child(1):hover {
+    background-image: url(../img/Plane-Icon-1.webp);
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+    background-size: contain; 
+}
+
+#foot02>div>div>p:nth-child(2) {
+    flex: 4;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    font-size: 5vw;
+}
+    
+}

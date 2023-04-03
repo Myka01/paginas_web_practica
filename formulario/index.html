@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es-es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <form action="alta_usuario.php" method="post">
+        <p><span>  Nombre: </span> <input type="text" name="nombre" id="nombre" placeholder="introduce tu nombre" maxlength="40"> </p><!-- name: lo recibe el servidor, id: lo procesa el css -->
+
+        <p><span>  Password: </span> <input type="password" name="passord" id="password" placeholder="introduce un password" maxlength="15"></p>
+
+        <p> <input type="checkbox" name="moto" id="moto" checked> <span>Moto</span> </p>
+        <p> <input type="checkbox" name="bus" id="bus"> <span>Bus</span></p>
+        <p> <input type="checkbox" name="metro" id="metro"> <span>Metro</span></p>
+        <p> <input type="radio" name="sexo" id="sexo01" checked value="m"> <span> Mujer</span> </p>
+        <p><input type="radio" name="sexo" id="sexo02" value="h"> <span> Hombre </span></p>
+        <p> <input type="file" name="archivo" id="archivo"> <span>Selecciona un archivo</span></p>
+        <p> <input type="date" name="fecha" id="fecha"> <span>Selecciona fecha de nacimiento</span> </p>
+        <!-- <p> <input type="color" name="color" id="color"></p> -->
+        <p> <textarea name="info" id="info" cols="" rows="">Añade una descripción..</textarea></p>
+        <p> <select name="pais" id="pais">
+            <option value="1">--- Selecciona una opción ---</option>  
+            <option value="Barcelona"> Barcelona </option>
+            <option value="Valencia">Valencia</option>
+            <option value="Madrid"> Madrid </option>
+            <option value="Bilbao"> Bilbao </option>
+        </select> </p>
+        <p><input type="number" name="edad" id="edad" value="30"></p>
+        <p><input type="button" value="Enviar datos"></p>
+    </form>
+    
+</body>
+
+</html>
