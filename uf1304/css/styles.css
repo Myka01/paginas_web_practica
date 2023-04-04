@@ -1,0 +1,117 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 1vw;
+    font-weight: normal; 
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+/* Fonts
+font-family: 'Bad Script', cursive;
+font-family: 'Edu NSW ACT Foundation', cursive;
+font-family: 'Gloria Hallelujah', cursive;
+font-family: 'Gochi Hand', cursive;
+font-family: 'Just Another Hand', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Special Elite', cursive;
+font-family: 'Tenor Sans', sans-serif; */
+
+body {
+    height: 600px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#box01 {
+    margin-top: 2%;
+    height: 500px;
+    width: 80%;
+    border: 2px solid crimson;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(206, 213, 219);
+    padding: 2%;
+    box-sizing: border-box;
+}
+
+#box01>div {
+    flex: 1;
+    display: flex;
+    
+}
+
+#box01>div:nth-child(1) {
+    font-size: 3.2vw;
+    font-family: 'Special Elite', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(44, 26, 20);
+}
+
+span {
+    font-size: 2vw;
+    margin-bottom: 0.5%;
+}
+
+#box01>div:nth-child(2),
+#box01>div:nth-child(3) {
+    display: flex;
+    flex-direction: column;
+}
+
+#box01>div:nth-child(2)>input, #box01>div:nth-child(3)>input {
+    font-size: 2vw;
+    height: 35%;
+    
+} 
+
+#box01>div:nth-child(4) {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#box01>div:nth-child(4)>fieldset>legend {
+    font-size: 2.6vw;
+    font-family: 'Special Elite', cursive;
+    display: flex;
+    text-align: center;
+    color: black;
+}
+
+#box01>div:nth-child(4)>fieldset {
+    display: flex;
+    width: 100%;
+    font-size: 2vw;
+    justify-content: center;
+    align-items: center;    
+}
+
+#box01>div:nth-child(4)>fieldset>input {
+    margin-left: 2%;
+    height: 35%;
+    width: 6%;
+}
+
+#box01>div:nth-child(4)>fieldset> label {
+    font-size: 2vw;
+}
+
+#box01>div:nth-child(5)>button {
+    display: flex;
+    width: 100%;
+    background-color: lightseagreen;
+    font-size: 3vw;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1%;
+}
+
+
+
