@@ -1,0 +1,652 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 1vw;
+    font-weight: normal; 
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+/* Fonts
+font-family: 'Bad Script', cursive;
+font-family: 'Edu NSW ACT Foundation', cursive;
+font-family: 'Gloria Hallelujah', cursive;
+font-family: 'Gochi Hand', cursive;
+font-family: 'Just Another Hand', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Special Elite', cursive;
+font-family: 'Tenor Sans', sans-serif; */
+
+header {
+   /*  border: 2px solid lightcoral; */
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#box01 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+   /*  border: 2px solid lightslategray; */
+    height: 120px;
+}
+
+#box01>div {
+   /*  border: 2px solid lightseagreen; */
+    margin: 0.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#box01>div:nth-child(1) {
+    display: flex;
+    flex: 1.5;
+}
+
+#box01>div:nth-child(1)>span:nth-child(1) {
+    border: 2px solid crimson;
+    border-radius: 6px;
+    flex: 0.5;
+    height: 60%;
+  /*   background-image: url(../img/icon-map.png);
+    background-position: center;
+    background-size: 50% 100%;
+    background-repeat: no-repeat; */
+    background-color: rgb(150, 149, 113);
+    background-image: url(../img/icon-map.png);
+    background-position: 50% 90%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0.5%;
+  /*   padding: 1px; */
+}
+
+#box01>div:nth-child(1)>span:nth-child(2) {
+    flex: 1;
+    display: flex;    
+    color: rgb(10, 10, 10);
+    font-size: 1.5vw;
+    /* background-color: yellowgreen; */
+} 
+
+#box01>div:nth-child(2) {
+    flex: 3;
+    display: flex;
+    background-color: rgb(62, 45, 28);
+    border-radius: 12px;
+    justify-content: space-evenly;
+    background-size: cover;
+    background-position: 50% 70%;
+}
+
+#box01>div:nth-child(2)>span:nth-child(1), #box01>div:nth-child(2)>span:nth-child(3) {
+    font-size: 5vw;
+    color:rgb(228, 223, 224);
+    font-family: 'Bad Script', cursive;
+    display: flex;   
+   /*  background-color: lightpink; */
+    background-image: url(../img/spiral-pink.png);
+    background-position:center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+} 
+
+#box01>div:nth-child(2)>span:nth-child(2) {
+    background-image: url(../img/tart-12.jpg);
+    /* border: 3px solid crimson; */
+    border-radius: 15px;
+    background-position: 80% 50%;
+    background-size: contain;
+    height: 80%;
+    width: 20%;
+    background-repeat: no-repeat;
+}
+
+#box01>div:nth-child(3) {
+    flex: 1;
+    display: flex;
+    border: 3px solid darkslategray;
+    border-radius: 7px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#box01>div:nth-child(3):hover {
+    border: 3px solid crimson;
+    cursor: pointer;
+}
+
+#box01>div:nth-child(3)>span:nth-child(1) {
+    flex: 1;
+    height: 40%;
+    background-image: url(../img/mail.webp);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#box01>div:nth-child(3)>span:nth-child(2) {
+    flex:3;
+    font-size: 2vw;
+    display: flex;
+    justify-content: center;
+}
+
+#box02 {
+    /* border: 2px solid lightsalmon; */
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+}
+
+#box02>nav {
+    /* border: 2px solid lightslategray; */
+    display: flex;
+    flex: 4;
+    justify-content: space-evenly;
+}
+
+#box02>nav>div {
+   /*  border: 2px solid lightsalmon; */
+    flex: 1;
+    margin: 0.5%;
+    display: flex;
+    align-items:center; 
+    flex-direction: column;
+    color: rgb(66, 64, 58);
+    font-size: 1.2vw;
+   /*  box-shadow: 2px 2px 9px dimgray; */
+}
+
+#box02>nav>div:hover>div:nth-child(1){
+    background-color: crimson;
+}
+
+#box02>nav>div>div {    
+    height: 40%;
+    width: 100%;
+}
+
+#box02>nav>div>div:hover {
+    background-color: crimson;
+    cursor: pointer;
+}
+
+#box02>nav>div:hover {
+    cursor: pointer;
+}
+
+#box02>div {
+   /*  border: 2px solid rgb(84, 140, 84); */
+    display: flex;
+    justify-content: right;
+    flex: 2;
+}
+
+#box02>div>span {
+   /* border: 2px solid rgb(57, 157, 11) ;  */
+   display: flex;
+   width: 25%;
+   margin:1%;
+}
+
+#box02>div>span:nth-last-child(1) {
+    background-image: url(../img/shopping01.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50% 80%;
+    margin: 2%;
+}
+
+#box02>div>span:nth-last-child(2) {
+    background-image: url(../img/lupa-icon.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50% 80%;
+    margin: 2%;
+}
+
+#box02>div>span:hover {
+    cursor: pointer;
+    box-shadow: 3px 3px 7px lightslategray;
+}
+
+/* ////////////////////////////// main /////////////////////////////////////////// */
+
+main {
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid rgb(139, 61, 97); */
+    height: 400vh;
+}
+
+h1 {
+    /* border: 2px solid lightcoral; */
+    height: 120px;
+    font-size: 6vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+}
+
+#box03>div {
+    /* border: 2px solid lightseagreen; */
+    height: 700px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#box03>div>div {
+    /* border: 2px solid pink; */
+    flex: 1;
+    margin: 1.5%;
+    display: flex;
+    flex-direction: column;
+}
+
+#box03>div>div:hover {
+    box-shadow: 2px 2px 9px gainsboro;
+    cursor: pointer;
+}
+
+#box03>div>div>div {
+    /* border: 2px solid crimson; */
+    display: flex;
+    justify-content: center;    
+}
+
+#box03>div>div>div:nth-child(1) {
+    flex: 4;
+}
+#box03>div>div>div:nth-child(2) {
+    flex: 1;
+}
+#box03>div>div>div:nth-child(3) {
+    flex: 2;
+}
+#box03>div>div>div:nth-child(4) {
+    flex: 1;
+}
+
+#box03>div>div:nth-child(1)>div:nth-child(1) {
+    background-image: url(../img/VW1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 70% 80%;
+}
+#box03>div>div:nth-child(1)>div:nth-child(1):hover {
+    background-image: url(../img/pastelera08.jpg);
+    transition:all 0.5s linear;
+    /* transition-duration: 0.5s;
+    transition-timing-function: ease-in; */
+}
+
+#box03>div>div:nth-child(2)>div:nth-child(1) {
+    background-image: url(../img/pastelero01.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 30% 80%;
+}
+#box03>div>div:nth-child(2)>div:nth-child(1):hover {
+    /* background-image: url(../img/pastelera03.png); */
+    transition: all 2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    background-position: 60% 100%;
+
+}
+
+#box03>div>div:nth-child(3)>div:nth-child(1) {
+    background-image: url(../img/pastelera04.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 80%;
+    margin: 4%;
+}
+
+#box03>div>div:nth-child(3)>div:nth-child(1):hover {
+    transition: all 1s linear;
+    margin: 0%;
+    
+}
+
+#box03>div>div>div:nth-child(2) {
+    color: rgb(138, 36, 36);
+    font-size: 4vw;
+    font-family: 'Tenor Sans', sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+#box03>div>div>div:nth-child(3) {
+    color: rgb(61, 61, 61);
+    font-size: 1.5vw;
+    font-family: 'Tenor Sans', sans-serif;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+#box03>div>div>div:nth-child(4) {
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#box03>div>div>div:nth-child(4)>span, 
+footer>article:nth-child(3)>div:nth-child(5)>span {
+    flex: 1;
+    margin: 0.5%;
+}
+
+#box03>div>div>div:nth-child(4)>span:nth-child(1), 
+footer>article:nth-child(3)>div:nth-child(5)>span:nth-child(1) {
+    background-image: url(../img/icon-face.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#box03>div>div>div:nth-child(4)>span:nth-child(2), 
+footer>article:nth-child(3)>div:nth-child(5)>span:nth-child(2) {
+    background-image: url(../img/instagram-circle.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#box03>div>div>div:nth-child(4)>span:nth-child(3),
+footer>article:nth-child(3)>div:nth-child(5)>span:nth-child(3) {
+    background-image: url(../img/icon_twitt.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#box03>div>div>div:nth-child(4)>span:nth-child(4), 
+footer>article:nth-child(3)>div:nth-child(5)>span:nth-child(4) {
+    background-image: url(../img/icon-link.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#box03>div>div>div:nth-child(4)>span:hover {
+    box-shadow: 3px 3px 7px crimson;
+}
+
+#box04 {
+    /* border: 2px solid rgb(23, 124, 186); */
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+}
+
+#box04>h2 {
+    /* border: 2px solid lightcoral; */
+    height: 300px;
+    font-size: 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+}
+
+#box04>article {
+    border: 2px solid lightseagreen;
+    height: 1000px;
+    display: flex;
+    flex-direction: row;
+}
+
+#box04>article>div:nth-child(1) {
+    background-image: url(../img/dark-chocolate-mousse-cake-2.jpg);
+    padding: 1%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 100%;
+    flex: 2;
+    display: flex;
+}
+
+#box04>article>div:nth-child(2) {
+    /* background-color: rgb(46, 187, 110); */
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+#box04>article>div:nth-child(2)>div {
+    border: 2px solid lightslategray;
+    display: flex;
+    flex: 1;
+    margin: 1%;
+}
+#box04>article>div:nth-child(2)>div:nth-child(1) {
+    background-image: url(../img/cupcake02.jpg);
+    background-position: 50% 90%;
+    background-size: cover;
+}
+#box04>article>div:nth-child(2)>div:nth-child(2) {
+    background-image: url(../img/pastry03.jpg);
+    background-position: 50% 90%;
+    background-size: cover;
+}
+
+#box04>article>div:nth-child(3) {
+    /* background-color: rgb(218, 148, 132); */
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+#box04>article>div:nth-child(3)>div {
+    /* border: 2px solid crimson; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 4%;
+    flex: 1;
+}
+#box04>article>div:nth-child(3)>div>p {
+   /*  background-color: aqua; */
+    flex:1;
+    font-family: 'Gochi Hand', cursive;
+}
+#box04>article>div:nth-child(3)>div>p:nth-child(1) {
+    display: flex;
+    align-items: flex-end;
+    font-size: 3vw;
+    color: rgb(183, 183, 183);
+}
+#box04>article>div:nth-child(3)>div>p:nth-child(2) {
+    display: flex;    
+    align-items: flex-start;
+    margin-top: 4%;
+    font-size: 2vw;
+}
+
+
+/* //////////////////////////////////////// footer ////////////////////////////////// */
+
+footer {
+    display: flex;
+    flex-direction: row;
+    height: 450px;
+   /*  border: 2px solid salmon; */
+    margin-bottom: 2%;
+}
+
+footer h3{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 4vw;
+    color: rgb(163, 165, 165);
+    font-family: 'Gochi Hand', cursive;
+
+}
+
+footer>article:nth-child(1) {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+   /*  background-color: tomato; */
+}
+
+footer>article:nth-child(1)>div {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+  /*   border: 2px solid lightseagreen;  */
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+footer>article:nth-child(1)>div>div {
+    display: flex;
+    border-radius: 5px;
+    border: 2px solid crimson;
+   /*  background-color: aqua; */
+    width: 29%;
+    margin:1%;   
+} 
+
+footer>article:nth-child(1)>div>div:nth-child(1) {
+    background-image: url(../img/cake05.jpg);
+    background-position: 50% 90%;
+    background-size: cover;
+} 
+footer>article:nth-child(1)>div>div:nth-child(2) {
+    background-image: url(../img/cake04.webp);
+    background-position: 40% 80%;
+    background-size: cover;
+} 
+footer>article:nth-child(1)>div>div:nth-child(3) {
+    background-image: url(../img/cake07.jpeg);
+    background-position: 50% 90%;
+    background-size: cover;
+}
+footer>article:nth-child(1)>div>div:nth-child(4) {
+    background-image: url(../img/cake09.jpg);
+    background-position: 40% 100%;
+    background-size: cover;
+}
+footer>article:nth-child(1)>div>div:nth-child(5) {
+    background-image: url(../img/cake06.jpeg);
+    background-position: 50% 90%;
+    background-size: cover;
+}footer>article:nth-child(1)>div>div:nth-child(6) {
+    background-image: url(../img/cake13.jpg);
+    background-position: 50% 90%;
+    background-size: cover;
+}    
+footer>article>p {
+    font-size: 1.5vw;
+    font-family: 'Just Another Hand', cursive;
+}
+
+
+footer>article:nth-child(2) {
+    flex: 1;
+    display: flex;
+    height: 100%;
+    /* background-color: rgb(119, 51, 39); */
+    flex-direction: column;
+    align-items: center;
+}
+
+footer>article:nth-child(2)>div {
+   /*  border: 2px solid darkblue; */
+    height: 100%;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;    
+} 
+
+footer>article:nth-child(2)>div>div {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin: 3%;
+}
+
+footer>article:nth-child(2)>div>div>p {
+    color: black;
+    font-family: 'Just Another Hand', cursive;
+    font-size: 3vw;
+    display: flex;
+    flex: 1;
+} 
+
+footer>article:nth-child(3) {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+   /*  background-color: rgb(235, 235, 235); */
+}
+
+footer>article:nth-child(3)>div {
+    display: flex;
+    flex-direction: 1;
+    flex: 1;
+    /* border: 2px solid lightseagreen; */
+}
+
+footer>article:nth-child(3)>div:nth-child(2)>span:nth-child(2),
+footer>article:nth-child(3)>div:nth-child(3)>span:nth-child(2),
+footer>article:nth-child(3)>div:nth-child(4)>span:nth-child(2) {
+    display: flex;
+    align-items: center;
+    margin-left: 2%;
+    font-size: 2.5vw;
+    flex: 3;
+    font-family: 'Just Another Hand', cursive;
+}
+   
+
+footer>article:nth-child(3)>div:nth-child(2)>span:nth-child(1),
+footer>article:nth-child(3)>div:nth-child(3)>span:nth-child(1),
+footer>article:nth-child(3)>div:nth-child(4)>span:nth-child(1) {
+    height: 99%;
+    flex: 1;    
+}
+
+footer>article:nth-child(3)>div:nth-child(2)>span:nth-child(1) {
+    /* background-color: rgb(150, 149, 113); */
+    background-image: url(../img/icon-map.png);
+    background-position: 50% 90%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0.5%;
+}
+footer>article:nth-child(3)>div:nth-child(3)>span:nth-child(1) {
+    /* background-color: rgb(150, 149, 113); */
+    background-image: url(../img/phone1.png);
+    background-position: 50% 90%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0.5%;
+}
+footer>article:nth-child(3)>div:nth-child(4)>span:nth-child(1) {
+    /* background-color: rgb(150, 149, 113); */
+    background-image: url(../img/mail.webp);
+    background-position: 50% 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0.5%;
+}
+/* /* /* este código, al final no lo usé. Este código lo envié más arriba y aproveché el estico
+  footer>article:nth-child(3)>div:nth-child(5)>span:nth-child(1), */ 
+/* footer>article:nth-child(3)>div:nth-child(5)>span:nth-child(2), */
+/* ooter>article:nth-child(3)>div:nth-child(5)>span:nth-child(3), */
+/* footer>article:nth-child(3)>div:nth-child(5)>span:nth-child(4) */ 
+    /* background-color: rgb(150, 149, 113);
+    border: 1px solid coral;
+    display: flex;
+    flex: 1;
+    margin: 0.5%; */
